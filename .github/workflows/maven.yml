@@ -3,8 +3,7 @@ name: Java CI with Maven
 on:
   push:
     branches: 
-      - 'main'
-      - 'esteban_branch/**'
+      - esteban_branch
     paths:
       - 'Shop/ci-cd-test/'
   pull_request:
