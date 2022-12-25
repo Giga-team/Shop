@@ -3,12 +3,12 @@ name: Java CI with Maven
 on:
   push:
     branches: 
-      - main
-      - esteban_branch
+      - 'main'
+      - 'esteban_branch/**'
   pull_request:
     branches:
-      - main
-      - esteban_branch
+      - 'main'
+      - 'esteban_branch/**'
 
 jobs:
   build:
